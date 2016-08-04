@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ResearchProjectDefs>
 
-<defName>AlienTechnology</defName>
+<ResearchProjectDef><defName>AlienTechnology</defName>
 <label>Alien Technology</label>
 <description>First step to discover power of alien technology and use it for your own good...</description>
 <baseCost>500</baseCost>
 <techLevel>Alien</techLevel>
 
-<defName>AlienWarfare</defName>
+<ResearchProjectDef><defName>AlienWarfare</defName>
 <label>Alien Warfare</label>
 <description>Firs step to mastery enemy weapon system for your own good"</description>
 <baseCost>800</baseCost>
@@ -17,7 +17,7 @@
 <techLevel>Alien</techLevel>
 <requiredResearchBuilding>AlienResearchBench</requiredResearchBuilding>
 
-<defName>GranadeMK2</defName>
+<ResearchProjectDef><defName>GranadeMK2</defName>
 <label>Granade MK2</label>
 <description>New type of granades. More powerful and more dangerous.</description>
 <baseCost>1000</baseCost>
@@ -28,9 +28,9 @@
 <requiredResearchBuilding>AlienResearchBench</requiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>PlasticCharges</defName>
+<ResearchProjectDef><defName>PlasticCharges</defName>
 <label>Plastic Charges</label>
 <description>Take </description>
 <baseCost>1200</baseCost>
@@ -41,9 +41,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>BlastMining</defName>
+<ResearchProjectDef><defName>BlastMining</defName>
 <label>Blast Mining</label>
 <description>Take plastic charges, plant tem into rock go away and press the button.</description>
 <baseCost>1500</baseCost>
@@ -54,9 +54,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>EliriumGranade</defName>
+<ResearchProjectDef><defName>EliriumGranade</defName>
 <label>Elirium Granade</label>
 <description>Granade + Shiny Alien Material + Ducktape = Very effective explosion devices</description>
 <baseCost>2000</baseCost>
@@ -68,9 +68,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>LaserTechnology</defName>
+<ResearchProjectDef><defName>LaserTechnology</defName>
 <label>Laser Technology</label>
 <description>Using light as weapon? Well we will see how that works...</description>
 <baseCost>1000</baseCost>
@@ -81,9 +81,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>LaserPistol</defName>
+<ResearchProjectDef><defName>LaserPistol</defName>
 <label>Laser Pistol</label>
 <description>Firs step of laser machinery. Now you discorvery how to make laser pistol quite effective but  you can do more.</description>
 <baseCost>1500</baseCost>
@@ -94,9 +94,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>LaserRifle</defName>
+<ResearchProjectDef><defName>LaserRifle</defName>
 <label>Laser Rifle</label>
 <description>First laser automatic weapon. More powerful than pistol but its a good start</description>
 <baseCost>1800</baseCost>
@@ -107,9 +107,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>HeavyLaser</defName>
+<ResearchProjectDef><defName>HeavyLaser</defName>
 <label>Heavy Laser</label>
 <description>Big lens, Big battery and trigger. Lets tl light solve our problems.</description>
 <baseCost>2000</baseCost>
@@ -121,9 +121,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>LaserDefense</defName>
+<ResearchProjectDef><defName>LaserDefense</defName>
 <label>Laser Defense</label>
 <description>Heavy laser on legs connected to grid its quite good defence system, still better than improvised one.</description>
 <baseCost>2500</baseCost>
@@ -135,9 +135,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>Optics</defName>
+<ResearchProjectDef><defName>Optics</defName>
 <label>Optics</label>
 <description>For better laser we will need better lens, time to find one.</description>
 <baseCost>1800</baseCost>
@@ -148,9 +148,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>LaserCapacitor</defName>
+<ResearchProjectDef><defName>LaserCapacitor</defName>
 <label>Laser Capacitors</label>
 <description>Shoot a light is quite energy hungry lets make new battery.</description>
 <baseCost>2000</baseCost>
@@ -162,9 +162,9 @@
 <requiredResearchFacilities>
 <li>MachineryTable</li>
 <li>OpticTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>PreciseLaser</defName>
+<ResearchProjectDef><defName>PreciseLaser</defName>
 <label>Precise Laser</label>
 <description>If you wat shoot to long range and good aiming </description>
 <baseCost>2500</baseCost>
@@ -176,9 +176,9 @@
 <requiredResearchFacilities>
 <li>MachineryTable</li>
 <li>OpticTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>PlasmaTechnology</defName>
+<ResearchProjectDef><defName>PlasmaTechnology</defName>
 <label>Plasma Technology</label>
 <description>Say somthing which is hot, i mean realy hot... Plasma of coure...</description>
 <baseCost>3000</baseCost>
@@ -190,9 +190,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>PlasmaPistol</defName>
+<ResearchProjectDef><defName>PlasmaPistol</defName>
 <label>Plasma Pistol</label>
 <description>First weapon using plasma technology, more powerful than laser but not that much...</description>
 <baseCost>3500</baseCost>
@@ -203,9 +203,9 @@
 <requiredResearchBuilding>AlienResearchTable</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>PlasmaRifle</defName>
+<ResearchProjectDef><defName>PlasmaRifle</defName>
 <label>Plasma Rifle</label>
 <description>Automatic weapon usage plasmatic technology, deadly and beutifil, this gun will have name Vera.</description>
 <baseCost>4000</baseCost>
@@ -216,9 +216,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>HeavyPlasma</defName>
+<ResearchProjectDef><defName>HeavyPlasma</defName>
 <label>Heavy Plasma</label>
 <description>Biggest gun we can make, if someone take shoot from these gun, well hope some one have rug for clean that mess.</description>
 <baseCost>4500</baseCost>
@@ -231,9 +231,9 @@
 <requiredResearchFacilities>
 <li>MachineryWorkbench</li>
 <li>PlasmaticBeams</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>PlasmaDefense</defName>
+<ResearchProjectDef><defName>PlasmaDefense</defName>
 <label>Plasma Defense<label>
 <description>So far our best known protection, but it will take lots of power</description>
 <baseCost>5000</baseCost>
@@ -246,9 +246,9 @@
 <requiredResearchFacilities>
 <li>MachineryTable</li>
 <li>PlasmaticBeams</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>PlasmaBeams</defName>
+<ResearchProjectDef><defName>PlasmaBeams</defName>
 <label>Plasma Beams</label>
 <description>Study of plasma bring new discoveries, such us usage in mining etc...</description>
 <baseCost>3700</baseCost>
@@ -260,9 +260,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>PlasmaCapacitor</defName>
+<ResearchProjectDef><defName>PlasmaCapacitor</defName>
 <label>Plasma Capacitors</label>
 <description>Charge plasma is quite a big deal. Time to make biggest battery man even make...</description>
 <baseCost>4500</baseCost>
@@ -275,9 +275,9 @@
 <requiredResearchFacilities>
 <li>MachineryTable</li>
 <li>PlasmaticBeams</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>PreciseBeam</defName>
+<ResearchProjectDef><defName>PreciseBeam</defName>
 <label>Precise Beam</label>
 <description>Focused beam is perfect and deadly, time to manufacture some sniper rifles...</description>
 <baseCost>5500</baseCost>
@@ -289,9 +289,9 @@
 <requiredResearchFacilities>
 <li>MachineryTable</li>
 <li>PlasmaticBeams</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>AlienAlloyWeaponry</defName>
+<ResearchProjectDef><defName>AlienAlloyWeaponry</defName>
 <label>Alien Alloy Weaponry</label>
 <description>When you make our type weapon but with advanced alloys you will get acurete and lethal weapons...</description>
 <baseCost>7500</baseCost>
@@ -304,9 +304,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>AlloyPistol</defName>
+<ResearchProjectDef><defName>AlloyPistol</defName>
 <label>Alloy Pistol</label>
 <description>Basic these are pistol we used to have, but now its copletly make from alien alloys so they are much stronger and danger.</description>
 <baseCost>8000</baseCost>
@@ -317,9 +317,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>HeavyAlloyWeaponry</defName>
+<ResearchProjectDef><defName>HeavyAlloyWeaponry</defName>
 <label>Heavy Alloy Weaponry</label>
 <description>This is point where you cant go with basic tools, its time to make new one.</description>
 <baseCost>10000</baseCost>
@@ -331,9 +331,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>EnchantedAlloy</defName>
+<ResearchProjectDef><defName>EnchantedAlloy</defName>
 <label>Enchanted Alloy</label>
 <description>If you want weapons firing inferno or worse you will need something better than alien alloys....</description>
 <baseCost>9000</baseCost>
@@ -344,9 +344,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>MachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>AlloyShells</defName>
+<ResearchProjectDef><defName>AlloyShells</defName>
 <label>Alloy Shells</label>
 <description>Explosive ammunition needs special casket which dont kill you and still do what he must...</description>
 <baseCost>11000</baseCost>
@@ -357,9 +357,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>HeavyMachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>FragAlloyWeaponry</defName>
+<ResearchProjectDef><defName>FragAlloyWeaponry</defName>
 <label>Frag Alloy Weaponry</label>
 <description>Using alien alloy as buck shoot ist that bad idea, at lest it kill your enemy, if you hit him.</description>
 <baseCost>12500</baseCost>
@@ -371,9 +371,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>HeavyMachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>AlloyDefense</defName>
+<ResearchProjectDef><defName>AlloyDefense</defName>
 <label>Alloy Defense</label>
 <description>This research isnt only one firing tower but few news defence things you can build from alloy</description>
 <baseCost>15000</baseCost>
@@ -384,9 +384,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>HeavyMachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>BlasterTechnology</defName>
+<ResearchProjectDef><defName>BlasterTechnology</defName>
 <label>Blaster Technology</label>
 <description>If you want lef crater in this earth you will start good research</description>
 <baseCost>15000</baseCost>
@@ -398,9 +398,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>HeavyMachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>StunningBlaster</defName>
+<ResearchProjectDef><defName>StunningBlaster</defName>
 <label>Stunnig Blast</label>
 <description>Learn how to make low profile ammonition to blasters, not to deadly but useful for stuning or just scare foe away...</description>
 <baseCost>17500</baseCost>
@@ -411,9 +411,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>HeavyMachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>BlasterStuner</defName>
+<ResearchProjectDef><defName>BlasterStuner</defName>
 <label>Blaster Stunner Launcher</label>
 <description>Launcher for stunning charges-</description>
 <baseCost>20000</baseCost>
@@ -425,9 +425,9 @@
 <requiredResearchBuilding>AlienResearchcBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>HeavyMachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>ExplosiveBlaster</defName>
+<ResearchProjectDef><defName>ExplosiveBlaster</defName>
 <label>Explosive Blaster Ammunition</label>
 <description>Lets find way to keep this ammunition safe, ok?</description>
 <baseCost>22500</baseCost>
@@ -438,9 +438,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>HeavyMachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>BlasterLauncher</defName>
+<ResearchProjectDef><defName>BlasterLauncher</defName>
 <label>Blaster Launcher</label>
 <description>Did you tink triple rocket launcher was strong enought? I cant me be more wrong...</description>
 <baseCost>25000</baseCost>
@@ -452,9 +452,9 @@
 <requiredResearchBuilding>10</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>HeavyMachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>EliriumEnrichedBlaster</defName>
+<ResearchProjectDef><defName>EliriumEnrichedBlaster</defName>
 <label>Elirium Enriched Blaster</label>
 <description>You want left hole in world? This is the right tool for you.</description>
 <baseCost>30000</baseCost>
@@ -466,9 +466,9 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>HeavyMachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
-<defName>FissionDefense</defName>
+<ResearchProjectDef><defName>FissionDefense</defName>
 <label>Fission Defense</label>
 <description>Almost best way how to protect your base, but watch out for range of explosion.</description>
 <baseCost>35000</baseCost>
@@ -479,6 +479,6 @@
 <requiredResearchBuilding>AlienResearchBench</equiredResearchBuilding>
 <requiredResearchFacilities>
 <li>HeavyMachineryTable</li>
-</requiredResearchFacilities>
+</requiredResearchFacilities></ResearchProjectDefs>
 
 </ResearchProjectDefs>
