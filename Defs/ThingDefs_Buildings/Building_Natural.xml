@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <!--============================ Common mineable resources ===============================-->
+  
+    <ThingDef ParentName="RockBase">
+    <defName>CoalDeposit</defName>
+    <label>Coal Chunk</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(40,36,35)</color>
+      <colorTwo>(118,118,118)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+    </statBases>
+    <description>Chunk of coal, useful like fuel to generators or for making carbon to powerful alloys</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Coal</mineableThing>
+      <mineableYield>45</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>35</min>
+        <max>75</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>IronDeposit</defName>
+    <label>Iron ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(124,66,54)</color>
+      <colorTwo>(172,93,77)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+    </statBases>
+    <description>Chunk of iron ore ready to mine, quite useful but if you make alloy from them it will be stronger.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Iron</mineableThing>
+      <mineableYield>45</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>15</min>
+        <max>75</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+</ThingDefs>
