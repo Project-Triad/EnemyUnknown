@@ -1,0 +1,18 @@
+To Do list:
+
+Building:
+AlienResearchBench
+AlienWorkBench
+
+
+Facility:
+MachineryTable
+OpticTable
+
+Weapons:
+Granade MK2
+Plastic Charge
+Elirium Granade
+Laser Pistol
+Laser Rifle
+Heavy Laser
