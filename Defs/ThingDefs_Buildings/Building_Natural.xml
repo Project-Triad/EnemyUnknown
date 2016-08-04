@@ -49,10 +49,164 @@
       <mineableYield>45</mineableYield>
       <mineableScatterCommonality>1</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
-        <min>15</min>
+        <min>35</min>
         <max>75</max>
       </mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>AluminiumDeposit</defName>
+    <label>Aluminium</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(124,66,54)</color>
+      <colorTwo>(172,93,77)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+    </statBases>
+    <description>Chunk of aluminum ready to mine, quite useful but if you make alloy from them it will be stronger.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Aluminium</mineableThing>
+      <mineableYield>45</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>35</min>
+        <max>75</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <!--============================ Semi-Rare mineable resources ===============================-->
+  
+    <ThingDef ParentName="RockBase">
+    <defName>CooperDeposit</defName>
+    <label>Cooper ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(210,35,0)</color>
+      <colorTwo>(236,70,37)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+    </statBases>
+    <description>Chunk of Cooper ore ready to mine, quite useful but if you make alloy from them it will be stronger.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Cooper</mineableThing>
+      <mineableYield>45</mineableYield>
+      <mineableScatterCommonality>0.75</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>15</min>
+        <max>50</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+    <ThingDef ParentName="RockBase">
+    <defName>MagnesiumDeposit</defName>
+    <label>Magnesium</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(123,136,145)</color>
+      <colorTwo>(78,108,128)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+    </statBases>
+    <description>Chunk of Magnesium ore ready to mine, quite useful for stronger alloys.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Magnesium</mineableThing>
+      <mineableYield>45</mineableYield>
+      <mineableScatterCommonality>0.75</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>15</min>
+        <max>50</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  
+    <ThingDef ParentName="RockBase">
+    <defName>TitanDeposit</defName>
+    <label>Titanium</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(226,226,226)</color>
+      <colorTwo>(225,225,225)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+    </statBases>
+    <description>One of the strongest metal you can find, but it also usable as alloy masterial</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Titanium</mineableThing>
+      <mineableYield>12</mineableYield>
+      <mineableScatterCommonality>0.3</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>15</min>
+        <max>50</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <!--============================ Rare mineable resources ===============================-->
+    <ThingDef ParentName="RockBase" Name="ExoticRockBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>0.1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>3</min>
+        <max>8</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+    <ThingDef ParentName="ExoticRockBase">
+    <defName>Elirium</defName>
+    <label>Elirium 117</label>
+    <graphicData>
+      <color>(222,210,44)</color>
+      <colorTwo>(185,173,11)</colorTwo>
+    </graphicData>
+    <description>Hard rock where you can find Elirium bits.</description>
+    <building>
+      <mineableThing>Elirium</mineableThing>
+    </building>
+  </ThingDef>
+  
+      <ThingDef ParentName="ExoticRockBase">
+    <defName>Unobtanium</defName>
+    <label>Unobtanium</label>
+    <graphicData>
+      <color>(5,80,124)</color>
+      <colorTwo>(22,102,148)</colorTwo>
+    </graphicData>
+    <description>Hard rock where you can find Unobtanium bits.</description>
+    <building>
+      <mineableThing>Elirium</mineableThing>
+    </building>
+  </ThingDef>
+  
   
 </ThingDefs>
