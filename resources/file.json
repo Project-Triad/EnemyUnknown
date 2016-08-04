@@ -1,0 +1,1322 @@
+[
+	{
+		"title": "Alien Technology",
+		"tags": "",
+		"body": "[[Alien Metalurgy]][[Alien Warfare]][[Alien Construction]][[Alien Xenobiology]]",
+		"position": {
+			"x": -324,
+			"y": -138
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Xenobiology",
+		"tags": "",
+		"body": "[[Known Species]]\n[[Agriculture]]\n[[Environment]]",
+		"position": {
+			"x": 1334,
+			"y": -3526
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Construction",
+		"tags": "",
+		"body": "[[Alien Computer MK1]]\n[[Advanced Machinery]]\n[[Advanced Power Distribution]]",
+		"position": {
+			"x": 940,
+			"y": -1070
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Metalurgy",
+		"tags": "",
+		"body": "[[High Furnace]]",
+		"position": {
+			"x": 925,
+			"y": 13
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Warfare",
+		"tags": "",
+		"body": "[[Granade MK2]][[Laser Technology]][[Plasma Technology]][[Alien Alloy weaponry]][[Blaster Technology]]",
+		"position": {
+			"x": 959,
+			"y": 1679
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Granade MK2",
+		"tags": "",
+		"body": "[[Plastic Charges]]",
+		"position": {
+			"x": 1294,
+			"y": 1677
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Laser Technology",
+		"tags": "",
+		"body": "[[Laser Pistol]][[Optics]]",
+		"position": {
+			"x": 1293,
+			"y": 1964
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Plasma Technology",
+		"tags": "",
+		"body": "[[Plasma Pistol]][[Plasma Beams]]",
+		"position": {
+			"x": 1498,
+			"y": 2688
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Alloy Weaponry",
+		"tags": "",
+		"body": "[[Alloy Pistol]]\n[[Enchanted Alloy Ammunition]]",
+		"position": {
+			"x": 1459,
+			"y": 3341
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Blaster Technology",
+		"tags": "",
+		"body": "[[Blaster Stuner]]\n[[Stuning Blaster Ammunition]]",
+		"position": {
+			"x": 1399,
+			"y": 4017
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Plastic Charges",
+		"tags": "",
+		"body": "[[Blast Mining]][[Elirium Granade]]",
+		"position": {
+			"x": 1612,
+			"y": 1675
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Blast Mining",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 1757,
+			"y": 1414
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Elirium Granade",
+		"tags": "",
+		"body": "[[Elirium Fission]]",
+		"position": {
+			"x": 1945,
+			"y": 1676
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Elirium Fission",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 2293,
+			"y": 1673
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Laser Pistol",
+		"tags": "",
+		"body": "[[Laser Rifle]]",
+		"position": {
+			"x": 1607,
+			"y": 1961
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Laser Rifle",
+		"tags": "",
+		"body": "[[Heavy Laser]]",
+		"position": {
+			"x": 1950,
+			"y": 1957
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Optics",
+		"tags": "",
+		"body": "[[Heavy laser]][[Laser Capacitor]]",
+		"position": {
+			"x": 1606,
+			"y": 2290
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Heavy Laser",
+		"tags": "",
+		"body": "[[Laser Capacitor]][[Laser Defense]]",
+		"position": {
+			"x": 2294,
+			"y": 1959
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Laser Capacitor",
+		"tags": "",
+		"body": "[[Laser Defense]][[Precise Laser]]",
+		"position": {
+			"x": 2292,
+			"y": 2285
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Laser Defense",
+		"tags": "",
+		"body": "[[Unix Defense System]]",
+		"position": {
+			"x": 2645,
+			"y": 1952
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Unix Defense System",
+		"tags": "",
+		"body": "[[Valkyrie]]",
+		"position": {
+			"x": 3950,
+			"y": 1938
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Plasma Pistol",
+		"tags": "",
+		"body": "[[Plasma Beams]][[Plasma Rifle]]",
+		"position": {
+			"x": 1827,
+			"y": 2678
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Plasma Rifle",
+		"tags": "",
+		"body": "[[Heavy Plasma]]",
+		"position": {
+			"x": 2174,
+			"y": 2673
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Heavy Plasma",
+		"tags": "",
+		"body": "[[Plasma Capacitor]][[Plasma Defense]]",
+		"position": {
+			"x": 2508,
+			"y": 2668
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Plasma Defense",
+		"tags": "",
+		"body": "[[Unix Defense System]]",
+		"position": {
+			"x": 2861,
+			"y": 2663
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Plasma Beams",
+		"tags": "",
+		"body": "[[Heavy Plasma]]\n[[Plasma Capacitor]]\n[[Plasma Drill]]",
+		"position": {
+			"x": 1823,
+			"y": 2972
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Plasma Capacitor",
+		"tags": "",
+		"body": "[[Plasma Defense]][[Precise Beam]]",
+		"position": {
+			"x": 2516,
+			"y": 2974
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Precise Beam",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 2865,
+			"y": 2973
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Precise laser",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 2646,
+			"y": 2280
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alloy Pistol",
+		"tags": "",
+		"body": "[[Heavy Alloy Weaponry]]",
+		"position": {
+			"x": 1880,
+			"y": 3333
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Frag Alloy Weaponry",
+		"tags": "",
+		"body": "[[Alloy Defense Integrations]]",
+		"position": {
+			"x": 2860,
+			"y": 3332
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Heavy Alloy Weaponry",
+		"tags": "",
+		"body": "[[Frag Alloy Weaponry]]",
+		"position": {
+			"x": 2325,
+			"y": 3331
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Enchanted Alloy Ammunition",
+		"tags": "",
+		"body": "[[Blaster Technology]]\n[[Heavy Alloy Weaponry]]",
+		"position": {
+			"x": 1872,
+			"y": 3586
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alloy Shells",
+		"tags": "",
+		"body": "[[Frag Alloy Weaponry]]\n[[Blaster technology]]",
+		"position": {
+			"x": 2326,
+			"y": 3582
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alloy Defense Integrations",
+		"tags": "",
+		"body": "[[Unix Defense system]]",
+		"position": {
+			"x": 3276,
+			"y": 3327
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Blaster Stuner",
+		"tags": "",
+		"body": "[[Blaster Launcher]]\n[[Explosive Blaster Ammunition]]",
+		"position": {
+			"x": 1879,
+			"y": 4011
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Blaster Launcher",
+		"tags": "",
+		"body": "[[Elirium Enriched Blaster]]",
+		"position": {
+			"x": 2326,
+			"y": 4007
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Elirium Enriched Blaster",
+		"tags": "",
+		"body": "[[Fission Defense]]",
+		"position": {
+			"x": 2750,
+			"y": 4004
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Fission Defense",
+		"tags": "",
+		"body": "[[Unix Defense System]]",
+		"position": {
+			"x": 3174,
+			"y": 4004
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Stuning Blaster Ammunition",
+		"tags": "",
+		"body": "[[Blaster Stuner]]",
+		"position": {
+			"x": 1650,
+			"y": 4353
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Explosive Blaster Ammunition",
+		"tags": "",
+		"body": "[[Blaster Launcher]]\n[[Deep Core Mining]]",
+		"position": {
+			"x": 2136,
+			"y": 4342
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Elirium Enriching",
+		"tags": "",
+		"body": "[[Elirium Enriched Blaster]]\n[[Elirium Granade]]\n[[Power Armor]]\n[[Fission Generator]]",
+		"position": {
+			"x": 3008,
+			"y": 611
+		},
+		"colorID": 6
+	},
+	{
+		"title": "High Furnace",
+		"tags": "",
+		"body": "[[Advanced Metal Casting]]\n[[Advanced Mining]]\n[[Metal Cleaning]]\n[[New Elements]]",
+		"position": {
+			"x": 1307,
+			"y": 19
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Advanced Metal Casting",
+		"tags": "",
+		"body": "[[Advanced Alloys]]\n[[Complexed Armor]]\n[[Advanced Power Distribution]]",
+		"position": {
+			"x": 1680,
+			"y": 18
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Advanced Alloys",
+		"tags": "",
+		"body": "[[Alien Alloy]]\n[[Light Alloys]]\n[[Alien Power Distribution]]\n",
+		"position": {
+			"x": 2119,
+			"y": 17
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Alloy",
+		"tags": "",
+		"body": "[[Personal Armor]]\n[[Alien Alloy Weaponry]]\n[[Alien Solar Panel]]",
+		"position": {
+			"x": 2538,
+			"y": 14
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Advanced Mining",
+		"tags": "",
+		"body": "[[Mining Machinery]]",
+		"position": {
+			"x": 1244,
+			"y": 1153
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Metal Cleaning",
+		"tags": "",
+		"body": "[[Metal Purifing]]",
+		"position": {
+			"x": 1561,
+			"y": 858
+		},
+		"colorID": 0
+	},
+	{
+		"title": "New Elements",
+		"tags": "",
+		"body": "[[Alien Elements]]",
+		"position": {
+			"x": 1801,
+			"y": 615
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Elements",
+		"tags": "",
+		"body": "[[Elirium 117]]",
+		"position": {
+			"x": 2185,
+			"y": 609
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Elirium 117",
+		"tags": "",
+		"body": "[[Elirium Enriching]]\n[[Elirium Generator]]",
+		"position": {
+			"x": 2572,
+			"y": 611
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Complexed armor",
+		"tags": "",
+		"body": "[[Personal armor]]",
+		"position": {
+			"x": 1919,
+			"y": -269
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Personal Armor",
+		"tags": "",
+		"body": "[[Power Armor]]",
+		"position": {
+			"x": 2277,
+			"y": -272
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Power Armor",
+		"tags": "",
+		"body": "[[Titan Armor]]",
+		"position": {
+			"x": 2644,
+			"y": -264
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Titan Armor",
+		"tags": "",
+		"body": "[[Goliath Armor]]",
+		"position": {
+			"x": 2997,
+			"y": -267
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Goliath Armor",
+		"tags": "",
+		"body": "[[Unix Plating System]]",
+		"position": {
+			"x": 3352,
+			"y": -267
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Unix Plating System",
+		"tags": "",
+		"body": "[[Unix Defense System]]",
+		"position": {
+			"x": 3699,
+			"y": -262
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Light Alloys",
+		"tags": "",
+		"body": "[[Heavy Alloys]]\n[[Advanced Steam Turbine]]",
+		"position": {
+			"x": 2346,
+			"y": 345
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Heavy Alloys",
+		"tags": "",
+		"body": "[[Titan Armor]]\n[[Goliath Alloy]]",
+		"position": {
+			"x": 2736,
+			"y": 350
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Goliath Alloy",
+		"tags": "",
+		"body": "[[Goliath Armor]]",
+		"position": {
+			"x": 3165,
+			"y": 351
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Metal Purifing",
+		"tags": "",
+		"body": "[[Alien Metal Cleaning]]",
+		"position": {
+			"x": 1848,
+			"y": 863
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Metal Cleaning",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 2172,
+			"y": 858
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Mining Machinery",
+		"tags": "",
+		"body": "[[Plasma Drill]]",
+		"position": {
+			"x": 1563,
+			"y": 1148
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Plasma Drill",
+		"tags": "",
+		"body": "[[Deep Core Mining]]",
+		"position": {
+			"x": 1905,
+			"y": 1148
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Deep Core Mining",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 2216,
+			"y": 1143
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Valkyrie",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 4384,
+			"y": 1932
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Computer MK1",
+		"tags": "",
+		"body": "[[Alien Computer MK2]]",
+		"position": {
+			"x": 1295,
+			"y": -483
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Computer MK2",
+		"tags": "",
+		"body": "[[Alien Computer MK3]]\n[[Nanobots]]",
+		"position": {
+			"x": 2285,
+			"y": -484
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Computer MK3",
+		"tags": "",
+		"body": "[[Unix Targeting System]]",
+		"position": {
+			"x": 3136,
+			"y": -480
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Unix Targeting System",
+		"tags": "",
+		"body": "[[Unix Defense System]]",
+		"position": {
+			"x": 3974,
+			"y": -486
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Computer Chips",
+		"tags": "",
+		"body": "[[Alien Computer MK1]]\n[[Hexit Procesor]]",
+		"position": {
+			"x": 1588,
+			"y": -776
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Advanced Machinery",
+		"tags": "",
+		"body": "[[Automatic Assembly Line]]",
+		"position": {
+			"x": 1429,
+			"y": -1066
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Automatic Assembly line",
+		"tags": "",
+		"body": "[[Computer Chips]]\n[[Robotic Facility]]",
+		"position": {
+			"x": 1739,
+			"y": -1068
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Hexit Procesor",
+		"tags": "",
+		"body": "[[Alien Computer MK2]]\n[[Advanced Robotics]]",
+		"position": {
+			"x": 2043,
+			"y": -780
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Robotic Facility",
+		"tags": "",
+		"body": "[[Advanced Robotics]]\n[[Nano Assembly]]\n[[Power Armor]]",
+		"position": {
+			"x": 2231,
+			"y": -1069
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Advanced Robotics",
+		"tags": "",
+		"body": "[[Nanobots]]",
+		"position": {
+			"x": 2596,
+			"y": -784
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Nanobots",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 3144,
+			"y": -783
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Nano Assembly",
+		"tags": "",
+		"body": "[[Alien Computer MK3]]",
+		"position": {
+			"x": 2899,
+			"y": -1065
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Advanced Power Distribution",
+		"tags": "",
+		"body": "[[Alien Power Distribution]]",
+		"position": {
+			"x": 1419,
+			"y": -1501
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Power Distribution",
+		"tags": "",
+		"body": "[[Alien Solar Panel]]\n[[Advanced Steam turbine]]\n[[Elirium Generator]]",
+		"position": {
+			"x": 1750,
+			"y": -1506
+		},
+		"colorID": 0
+	},
+	{
+		"title": "New Generation Solar Panel",
+		"tags": "",
+		"body": "[[Helios Power Plant]]",
+		"position": {
+			"x": 2551,
+			"y": -2120
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Solar Panel",
+		"tags": "",
+		"body": "[[New Generation Solar Panel]]",
+		"position": {
+			"x": 2131,
+			"y": -2117
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Advanced Steam Turbine",
+		"tags": "",
+		"body": "[[Alien Steam Turbine]]",
+		"position": {
+			"x": 2132,
+			"y": -1790
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Steam Turbine",
+		"tags": "",
+		"body": "[[Helios Power Plant]]",
+		"position": {
+			"x": 2546,
+			"y": -1793
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Elirium Generator",
+		"tags": "",
+		"body": "[[Fission Generator]]",
+		"position": {
+			"x": 2539,
+			"y": -1510
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Fission Generator",
+		"tags": "",
+		"body": "[[Helios Power Plant]]",
+		"position": {
+			"x": 2917,
+			"y": -1511
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Helios Power Plant",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 3306,
+			"y": -1793
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Environment",
+		"tags": "",
+		"body": "[[Drainage]]\n[[Recultivation]]\n[[Reforestation]]",
+		"position": {
+			"x": 1885,
+			"y": -3144
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Agriculture",
+		"tags": "",
+		"body": "[[Farming Plots]]",
+		"position": {
+			"x": 1919,
+			"y": -3538
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Known Species",
+		"tags": "",
+		"body": "[[Humans]]",
+		"position": {
+			"x": 1998,
+			"y": -4520
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Farming Plots",
+		"tags": "",
+		"body": "[[Fertilizing]]",
+		"position": {
+			"x": 2294,
+			"y": -3541
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Fertilizing",
+		"tags": "",
+		"body": "[[Ground Revitalization]]\n[[Genetic Modified Plants]]",
+		"position": {
+			"x": 2674,
+			"y": -3542
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Ground Revitalization",
+		"tags": "",
+		"body": "[[Underground Greenhouse]]\n[[Economic Sunlamps]]",
+		"position": {
+			"x": 3065,
+			"y": -3544
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Underground Greenhouse",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 3473,
+			"y": -3545
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Economic Sunlamps",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 3474,
+			"y": -3245
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Genetic Modified Plants",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 3028,
+			"y": -3239
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Humans",
+		"tags": "",
+		"body": "[[Medicine]]\n[[Sectoids]]",
+		"position": {
+			"x": 2419,
+			"y": -4520
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Medicine",
+		"tags": "",
+		"body": "[[Advanced Surgery]]",
+		"position": {
+			"x": 2719,
+			"y": -4215
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Advanced Surgery",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 3058,
+			"y": -4218
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Sectoids",
+		"tags": "",
+		"body": "[[Floaters]]\n[[Psionic Basics]]",
+		"position": {
+			"x": 2881,
+			"y": -4521
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Floaters",
+		"tags": "",
+		"body": "[[Snakemans]]\n[[Basic Prosthesis]]",
+		"position": {
+			"x": 3422,
+			"y": -4523
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Psionic Basics",
+		"tags": "",
+		"body": "[[Joywire]]",
+		"position": {
+			"x": 3116,
+			"y": -4797
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Joywire",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 3516,
+			"y": -4796
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Basic Prosthesis",
+		"tags": "",
+		"body": "[[Artifitial Extremities]]",
+		"position": {
+			"x": 3616,
+			"y": -4219
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Artifitial Extremities",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 4009,
+			"y": -4222
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Snakemans",
+		"tags": "",
+		"body": "[[Muton]]\n[[Agility]]",
+		"position": {
+			"x": 3869,
+			"y": -4518
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Agility",
+		"tags": "",
+		"body": "[[Agility Implants]]",
+		"position": {
+			"x": 4121,
+			"y": -4797
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Agility Implants",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 4515,
+			"y": -4796
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Muton",
+		"tags": "",
+		"body": "[[Etheral]]\n[[Combat Stimulants]]",
+		"position": {
+			"x": 4357,
+			"y": -4519
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Combat Stimulants",
+		"tags": "",
+		"body": "[[Combat Implants]]",
+		"position": {
+			"x": 4557,
+			"y": -4238
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Combat Implants",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 4926,
+			"y": -4243
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Etheral",
+		"tags": "",
+		"body": "[[Creatures of Terror]]\n[[Psionic Weapons]]",
+		"position": {
+			"x": 4783,
+			"y": -4516
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Psionic Weapons",
+		"tags": "",
+		"body": "[[Psionic Devices]]",
+		"position": {
+			"x": 5063,
+			"y": -4806
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Psionic Devices",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 5453,
+			"y": -4808
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Creatures of Terror",
+		"tags": "",
+		"body": "[[Cyberdisk]]\n[[Reaper]]\n[[Crysalid]]\n[[Bloblike Creatures]]\n[[Sectopod]]",
+		"position": {
+			"x": 5233,
+			"y": -4520
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Cyberdisk",
+		"tags": "",
+		"body": "[[Advanced Bionic]]",
+		"position": {
+			"x": 5651,
+			"y": -4522
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Reaper",
+		"tags": "",
+		"body": "[[Endurance]]",
+		"position": {
+			"x": 5651,
+			"y": -4266
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Crysalid",
+		"tags": "",
+		"body": "[[Alien Venom]]",
+		"position": {
+			"x": 5650,
+			"y": -4002
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bloblike Creatures",
+		"tags": "",
+		"body": "[[Regeneration]]",
+		"position": {
+			"x": 5650,
+			"y": -3759
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Sectopod",
+		"tags": "",
+		"body": "[[Unix Targeting System]]",
+		"position": {
+			"x": 5653,
+			"y": -3483
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Advanced Bionic",
+		"tags": "",
+		"body": "[[Bionic Organs]]",
+		"position": {
+			"x": 5994,
+			"y": -4524
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Brain Surgery",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 6672,
+			"y": -4537
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Bionic Organs",
+		"tags": "",
+		"body": "[[Brain Surgery]]",
+		"position": {
+			"x": 6335,
+			"y": -4530
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Endurance",
+		"tags": "",
+		"body": "[[Musle Trainer]]",
+		"position": {
+			"x": 5998,
+			"y": -4271
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Musle Trainer",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 6336,
+			"y": -4273
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Venom",
+		"tags": "",
+		"body": "[[Alien Medicine]]",
+		"position": {
+			"x": 5996,
+			"y": -4003
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Alien Medicine",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 6336,
+			"y": -4008
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Regeneration",
+		"tags": "",
+		"body": "[[Ultimate Hospital Bed]]",
+		"position": {
+			"x": 5996,
+			"y": -3756
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Ultimate Hospital Bed",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 6338,
+			"y": -3760
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Drainage",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 2318,
+			"y": -3150
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Recultivation",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 2317,
+			"y": -2895
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Reforestation",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 2314,
+			"y": -2617
+		},
+		"colorID": 0
+	}
+]
