@@ -33,12 +33,29 @@ Plasma Sniper
 Alloy Pistol
 Alloy Shotgun
 
+Minerals:
+Coal ore - Code Done
+Unobtanium (AKA Alien Metal) - Code Done
+Elirium117 - Code Done
+Titanium ore - Code Done
+Coper ore - Code Done
+Aluminium ore - Code Done
+Magnesium ore - Code Done
+Iron ore - Code Done
+
 Materials:
+Iron
 Coal
-Unobtanium (AKA Alien Metal)
-Elirium117
-Titanium
-Coper
-Aluminium
+Carbon
+Cooper
 Magnesium
-Iron ore
+Silicon
+Elirium
+Unobtanium
+
+Alloys:
+Steel
+Stainless Steel
+Alien Alloy
+Electronium
+Dural
