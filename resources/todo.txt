@@ -2,12 +2,21 @@ To Do list:
 
 Building:
 AlienResearchBench
-AlienWorkBench
+LaserDefense
+PlasmaDefense
+AlloyDefence
+AlloyWall
+AlloyedBags
 
+Alien Work Bench
+Alien Assembly Table
+Heavy Assembly Table
 
 Facility:
 MachineryTable
+HeavyMachineryTable
 OpticTable
+PlasmaticBeams
 
 Weapons:
 Granade MK2
@@ -15,4 +24,21 @@ Plastic Charge
 Elirium Granade
 Laser Pistol
 Laser Rifle
+Laser Sniper
 Heavy Laser
+Plasma Pistol
+Plsama Rifle
+HeavyPlasma
+Plasma Sniper
+Alloy Pistol
+Alloy Shotgun
+
+Materials:
+Coal
+Unobtanium (AKA Alien Metal)
+Elirium117
+Titanium
+Coper
+Aluminium
+Magnesium
+Iron ore
