@@ -59,3 +59,18 @@ Stainless Steel
 Alien Alloy
 Electronium
 Dural
+
+Races:
+Sectoid
+Floater
+Snakeman
+Muton
+Ethereal
+
+Battle machines/entities:
+Cyberdisk
+Reaper
+Crysalid
+Blob
+Flying Blob
+Sectopod
