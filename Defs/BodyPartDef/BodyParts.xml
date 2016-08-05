@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<BodyPartDefs>
+
+	<!--=============================Cyberdisk=======================================-->
+
+	<BodyPartDef>
+		<defName>CyberdiskChasis</defName>
+		<label>cyberdisk chassis</label>
+		<hitPoints>60</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>CyberdiskGravityGenerator</defName>
+		<label>cyberdisk graviton engine</label>
+		<hitPoints>30</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+		<BodyPartDef>
+		<defName>CyberdiskProcesor</defName>
+		<label>cyberdisk procesor</label>
+		<hitPoints>20</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+		<BodyPartDef>
+		<defName>CyberdiskCanon</defName>
+		<label>cyberdisk canon</label>
+		<hitPoints>30</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+		<BodyPartDef>
+		<defName>CyberdiskBatterz</defName>
+		<label>cyberdisk power sourse</label>
+		<hitPoints>30</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
