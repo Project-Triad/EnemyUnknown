@@ -4,7 +4,7 @@ If you want to ask yes its mod inspired by XCOM (not only newest one but by whol
 
 What I plan for this mod? 
 A lots of Researches (about 100 new reasearch will be avalible)
-Some weapons (yet I play 13 new weapons)
+Some weapons (yet I plan 13 new weapons)
 Lots of buildable structures (not only defensive)
 New research facility which improve speed of research
 New enemyes (of coure the old Xcom enemyes)
