@@ -39,12 +39,135 @@
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
 	</BodyPartDef>
-		<BodyPartDef>
-		<defName>CyberdiskBatterz</defName>
+	<BodyPartDef>
+		<defName>CyberdiskBattery</defName>
 		<label>cyberdisk power sourse</label>
 		<hitPoints>30</hitPoints>
 		<oldInjuryBaseChance>0</oldInjuryBaseChance>
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>CyberdiskAim</defName>
+		<label>cyberdisk aiming sensors</label>
+		<hitPoints>30</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>CyberdiskProximity</defName>
+		<label>cyberdisk proximity sensors</label>
+		<hitPoints>30</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	
+	<!--==========================REAPER==========================================-->
+	<BodyPartDef>
+		<defName>ReaperSkin</defName>
+		<label>reaper hard skin</label>
+		<hitPoints>60</hitPoints>
+		<oldInjuryBaseChance>0.5</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<isSolid>false</isSolid>
+		<isAlive>true</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>ReaperHead</defName>
+		<label>reaper head</label>
+		<hitPoints>50</hitPoints>
+		<oldInjuryBaseChance>0.5</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<isSolid>false</isSolid>
+		<isAlive>true</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>ReaperLLeg</defName>
+		<label>reaper left leg</label>
+		<hitPoints>30</hitPoints>
+		<oldInjuryBaseChance>0.5</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<isSolid>false</isSolid>
+		<isAlive>true</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>ReaperRLeg</defName>
+		<label>reaper right leg</label>
+		<hitPoints>30</hitPoints>
+		<oldInjuryBaseChance>0.5</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<isSolid>false</isSolid>
+		<isAlive>true</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>ReaperLEye</defName>
+		<label>reaper left eye</label>
+		<hitPoints>10</hitPoints>
+		<oldInjuryBaseChance>0.5</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<isSolid>false</isSolid>
+		<isAlive>true</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>ReaperREye</defName>
+		<label>reaper right eye</label>
+		<hitPoints>10</hitPoints>
+		<oldInjuryBaseChance>0.5</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<isSolid>false</isSolid>
+		<isAlive>true</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>ReaperJaw</defName>
+		<label>reaper jaws</label>
+		<hitPoints>15</hitPoints>
+		<oldInjuryBaseChance>0.5</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>ReaperLTusk</defName>
+		<label>reaper left tusk</label>
+		<hitPoints>10</hitPoints>
+		<oldInjuryBaseChance>0.5</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	
+	<!--==============================Crysalid=========================================-->
+	
+	<!--==============================Blob=============================================-->
+	<BodyPartDef>
+		<defName>BlobSkin</defName>
+		<label>blob skin shell</label>
+		<hitPoints>20</hitPoints>
+		<oldInjuryBaseChance>0.1</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>true</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>BlobPseudopod</defName>
+		<label>blob pseudopod</label>
+		<hitPoints>20</hitPoints>
+		<oldInjuryBaseChance>0.1</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>true</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>BlobMitochondrialCore</defName>
+		<label>blob mitochondrial core</label>
+		<hitPoints>20</hitPoints>
+		<oldInjuryBaseChance>0.1</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>true</isAlive>
 	</BodyPartDef>
