@@ -61,11 +61,11 @@ Electronium
 Dural
 
 Races:
-Sectoid
-Floater
-Snakeman
-Muton
-Ethereal
+Sectoid - Body Done
+Floater - Body Done
+Snakeman - Body Done
+Muton - Body Done
+Ethereal - Body Done
 
 Battle machines/entities:
 Cyberdisk
