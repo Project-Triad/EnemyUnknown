@@ -326,4 +326,14 @@
 		<isSolid>true</isSolid>
 		<isAlive>true</isAlive>
 	</BodyPartDef>
+	<BodyPartDef>
+		<defName>SnakemanTail</defName>
+		<label>snakeman tail</label>
+		<hitPoints>20</hitPoints>
+		<oldInjuryBaseChance>0.1</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<isSolid>false</isSolid>
+		<isAlive>true</isAlive>
+	</BodyPartDef>
+
 </BodyPartDefs>
