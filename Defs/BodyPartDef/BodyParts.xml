@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <BodyPartDefs>
+<!--Type of activites: Manipulation, Moving, Talking, Sight, Hearing, Consciousness-->
+<!--Secondary typer _smth: brain, source, tool, (moving: way, way0, rightway1, leftway1)
 
 	<!--=============================Cyberdisk=======================================-->
 
@@ -20,6 +22,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
+	 <activities>
+	 <li>Moving_source</li>
+	  </activities>
 	</BodyPartDef>
 		<BodyPartDef>
 		<defName>CyberdiskProcesor</defName>
@@ -29,6 +34,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
+	<activities>
+	<li>Consciousness_brain</li>
+	</activities>
 	</BodyPartDef>
 		<BodyPartDef>
 		<defName>CyberdiskCanon</defName>
@@ -56,6 +64,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
+	<activities>
+	<li>Consciousness_tool</li>
+	</activities>
 	</BodyPartDef>
 	<BodyPartDef>
 		<defName>CyberdiskProximity</defName>
@@ -65,6 +76,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
+	<activities>
+	<li>Sight_tool</li>
+	</activities>
 	</BodyPartDef>
 	
 	<!--==========================REAPER==========================================-->
@@ -94,6 +108,9 @@
 		<skinCovered>true</skinCovered>
 		<isSolid>false</isSolid>
 		<isAlive>true</isAlive>
+	<activities>
+	<li>Moving_leftway0</li>
+	</activities>
 	</BodyPartDef>
 	<BodyPartDef>
 		<defName>ReaperRLeg</defName>
@@ -103,6 +120,9 @@
 		<skinCovered>true</skinCovered>
 		<isSolid>false</isSolid>
 		<isAlive>true</isAlive>
+	<activities>
+	<li>Moving_rightway0</li>
+	</activities>
 	</BodyPartDef>
 	<BodyPartDef>
 		<defName>ReaperLEye</defName>
@@ -112,6 +132,9 @@
 		<skinCovered>true</skinCovered>
 		<isSolid>false</isSolid>
 		<isAlive>true</isAlive>
+	<activities>
+	<li>Sight_leftway0</li>
+	</activities>
 	</BodyPartDef>
 	<BodyPartDef>
 		<defName>ReaperREye</defName>
@@ -121,6 +144,9 @@
 		<skinCovered>true</skinCovered>
 		<isSolid>false</isSolid>
 		<isAlive>true</isAlive>
+	<activities>
+	<li>Sight_rightway0</li>
+	</activities>
 	</BodyPartDef>
 	<BodyPartDef>
 		<defName>ReaperJaw</defName>
@@ -161,6 +187,9 @@
 		<skinCovered>true</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>true</isAlive>
+	<activities>
+	<li>Moving_source</li>
+	</activities>
 	</BodyPartDef>
 	<BodyPartDef>
 		<defName>BlobMitochondrialCore</defName>
@@ -170,6 +199,9 @@
 		<skinCovered>true</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>true</isAlive>
+	<activities>
+	<li>Manipulation_source</li>
+	</activities>
 	</BodyPartDef>
 	<BodyPartDef>
 		<defName>BlobMitochondrialCanon</defName>
@@ -188,6 +220,9 @@
 		<skinCovered>true</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>true</isAlive>
+	<activities>
+	<li>Consciousness_brain</li>
+	</activities>
 	</BodyPartDef>
 	<!--==============================Sectopod=============================================-->
 	<BodyPartDef>
@@ -207,6 +242,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
+	<activities>
+	<li>Moving_leftway0</li>
+	</activities>
 	</BodyPartDef>	
 	<BodyPartDef>
 		<defName>SectopodRLeg</defName>
@@ -216,6 +254,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
+	<activities>
+	<li>Moving_rightway0</li>
+	</activities>
 	</BodyPartDef>
 	<BodyPartDef>
 		<defName>SectopodHead</defName>
@@ -225,6 +266,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
+	<activities>
+	<li>Consciousness_brain</li>
+	</activities>
 	</BodyPartDef>
 	<BodyPartDef>
 		<defName>SectopodMainWeapon</defName>
@@ -261,6 +305,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
+	<activities>
+	<li>Hearing_tool</li>
+	</activities>
 	</BodyPartDef>
 	<BodyPartDef>
 		<defName>SectopodSightSensor</defName>
@@ -270,6 +317,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
+	<activities>
+	<li>Sight_source</li>
+	</activities>
 	</BodyPartDef>
 	<BodyPartDef>
 		<defName>SectopodProcesor</defName>
@@ -298,6 +348,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
+	<activities>
+	<li>Moving_source</li>
+	</activities>
 	</BodyPartDef>
 	<BodyPartDef>
 		<defName>FloaterChest</defName>
@@ -334,6 +387,9 @@
 		<skinCovered>true</skinCovered>
 		<isSolid>false</isSolid>
 		<isAlive>true</isAlive>
+	<activities>
+	<li>Moving_source</li>
+	</activities>
 	</BodyPartDef>
 
 </BodyPartDefs>
