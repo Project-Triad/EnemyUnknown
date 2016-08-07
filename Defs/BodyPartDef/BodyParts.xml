@@ -171,3 +171,122 @@
 		<isSolid>true</isSolid>
 		<isAlive>true</isAlive>
 	</BodyPartDef>
+	<BodyPartDef>
+		<defName>BlobMitochondrialCanon</defName>
+		<label>blob mitochondrial canon</label>
+		<hitPoints>10</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>true</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>BlobGanglia</defName>
+		<label>blob ganlia</label>
+		<hitPoints>10</hitPoints>
+		<oldInjuryBaseChance>0.1</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>true</isAlive>
+	</BodyPartDef>
+	<!--==============================Sectopod=============================================-->
+	<BodyPartDef>
+		<defName>SectopodHull</defName>
+		<label>sectopod</label>
+		<hitPoints>150</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>SectopodLLeg</defName>
+		<label>sectopod left leg</label>
+		<hitPoints>80</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>	
+	<BodyPartDef>
+		<defName>SectopodRLeg</defName>
+		<label>sectopod right leg</label>
+		<hitPoints>80</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>SectopodHead</defName>
+		<label>sectopod head</label>
+		<hitPoints>60</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>SectopodMainWeapon</defName>
+		<label>sectopod main weapon</label>
+		<hitPoints>40</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>SectopodSecondaryWapon</defName>
+		<label>sectopod secondary weapon</label>
+		<hitPoints>40</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>SectopodAimingSensor</defName>
+		<label>sectopod aiming sensor</label>
+		<hitPoints>20</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>SectopodProximitySensor</defName>
+		<label>sectopod proximity sensor</label>
+		<hitPoints>20</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>SectopodSightSensor</defName>
+		<label>sectopod sight sensor</label>
+		<hitPoints>20</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>SectopodProcesor</defName>
+		<label>sectopod procesor</label>
+		<hitPoints>10</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>SectopodAmmonition</defName>
+		<label>sectopod ammonition</label>
+		<hitPoints>10</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+</BodyPartDefs>
