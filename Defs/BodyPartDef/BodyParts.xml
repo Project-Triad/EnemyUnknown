@@ -289,4 +289,41 @@
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
 	</BodyPartDef>
+	<!--==========================================Other Parts==========================-->
+	<BodyPartDef>
+		<defName>FloaterGravityGenerator</defName>
+		<label>floater gravity generator</label>
+		<hitPoints>20</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>FloaterChest</defName>
+		<label>floater chest</label>
+		<hitPoints>20</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>false</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>FloaterLTusk</defName>
+		<label>floater left tusk</label>
+		<hitPoints>10</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>true</isAlive>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>FloaterRTusk</defName>
+		<label>floater right tusk</label>
+		<hitPoints>10</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+		<isAlive>true</isAlive>
+	</BodyPartDef>
 </BodyPartDefs>
