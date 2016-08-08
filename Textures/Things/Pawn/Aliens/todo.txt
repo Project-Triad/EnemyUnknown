@@ -1,0 +1,13 @@
+Graphics need:
+
+(resolution min 64x64 (1 square))
+Pawn Sectoid
+Pawn Floater
+Pawn Snakeman
+Pawn Muton
+Pawn Ethereal
+
+(Resolution min 192x192 (3x3square))
+Pawn Cyber disk (3x1.5sq)
+Pawn Reaper
+pawn Sectopod
