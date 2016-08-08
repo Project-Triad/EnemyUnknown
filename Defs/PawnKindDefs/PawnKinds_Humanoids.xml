@@ -8,6 +8,18 @@
 		<combatPower>20</combatPower>
 		<defaultFactionType>EnemyUnknown</defaultFactionType>
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Aliens/Sectoid</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
 		<backstoryCategory>Raider</backstoryCategory>
 		<backstoryCryptosleepCommonality>0.4</backstoryCryptosleepCommonality>
 		<maxGenerationAge>200</maxGenerationAge>
@@ -69,6 +81,18 @@
 		<race>Floater</race>
 		<combatPower>30</combatPower>
 		<defaultFactionType>EnemyUnknown</defaultFactionType>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Aliens/Floater</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
 		<backstoryCategory>Raider</backstoryCategory>
 		<backstoryCryptosleepCommonality>0.4</backstoryCryptosleepCommonality>
@@ -140,6 +164,18 @@
 		<race>Snakeman</race>
 		<combatPower>40</combatPower>
 		<defaultFactionType>EnemyUnknown</defaultFactionType>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Aliens/Snakeman</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
 		<backstoryCategory>Raider</backstoryCategory>
 		<backstoryCryptosleepCommonality>0.4</backstoryCryptosleepCommonality>
@@ -211,6 +247,18 @@
 		<race>Crysalid</race>
 		<combatPower>60</combatPower>
 		<defaultFactionType>EnemyUnknown</defaultFactionType>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Aliens/Crysalid</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
 		<backstoryCategory>Raider</backstoryCategory>
 		<backstoryCryptosleepCommonality>0.4</backstoryCryptosleepCommonality>
@@ -248,6 +296,18 @@
 		<race>Muton</race>
 		<combatPower>80</combatPower>
 		<defaultFactionType>EnemyUnknown</defaultFactionType>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Aliens/Muton</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
 		<backstoryCategory>Raider</backstoryCategory>
 		<backstoryCryptosleepCommonality>0.4</backstoryCryptosleepCommonality>
@@ -308,6 +368,80 @@
 					<countRange>
 						<min>5</min>
 						<max>10</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+	</PawnKindDef>
+		<PawnKindDef><!--Ethereal-->
+		<defName>Ethereal</defName>
+		<label>Ethereal</label>
+		<race>Ethereal</race>
+		<combatPower>100</combatPower>
+		<defaultFactionType>EnemyUnknown</defaultFactionType>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Aliens/Ethereal</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<baseRecruitDifficulty>1</baseRecruitDifficulty>
+		<backstoryCategory>Raider</backstoryCategory>
+		<backstoryCryptosleepCommonality>0.4</backstoryCryptosleepCommonality>
+		<maxGenerationAge>200</maxGenerationAge>
+		<invNutrition>5</invNutrition>
+		<itemQuality>Superior</itemQuality>
+		<gearHealthRange>
+			<min>0.6</min>
+			<max>0.8</max>
+		</gearHealthRange>
+		<weaponMoney>
+			<min>1000</min>
+			<max>1200</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>AlienTech</li>
+		</weaponTags>
+		<techHediffsMoney>
+			<min>2000</min>
+			<max>2500</max>
+		</techHediffsMoney>
+		<techHediffsChance>0.1</techHediffsChance>
+		<inventoryOptions>
+			<skipChance>0.2</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Unobtanium</thingDef>
+					<countRange>
+						<min>40</min>
+						<max>60</max>
+					</countRange>
+				</li>
+				<li>
+					<thingDef>Medicine</thingDef>
+					<countRange>
+						<min>4</min>
+						<max>8</max>
+					</countRange>
+				</li>
+				<li>
+					<thingDef>AlienAlloy</thingDef>
+					<countRange>
+						<min>20</min>
+						<max>60</max>
+					</countRange>
+				</li>
+				<li>
+					<thingDef>Elirium</thingDef>
+					<countRange>
+						<min>10</min>
+						<max>20</max>
 					</countRange>
 				</li>
 			</subOptionsChooseOne>
