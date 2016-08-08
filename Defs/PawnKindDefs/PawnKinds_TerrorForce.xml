@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PawnKindDefs>
+
+
+
+	<PawnKindDef><!--Cyberdisk-->
+		<defName>Cyberdisk</defName>
+		<label>Cyberdisk</label>
+		<race>Cyberdisk</race>
+		<combatPower>60</combatPower>
+		<defaultFactionType>EnemyUnknownTerrorForce</defaultFactionType>
+		<aiAvoidCover>true</aiAvoidCover>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Alien/Cyberdisk</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<weaponMoney>
+			<min>1000</min>
+			<max>1000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>CyberdiskPlasma</li>
+		</weaponTags>
+	</PawnKindDef>
+	<PawnKindDef><!--Reaper-->
+		<defName>Reaper</defName>
+		<label>Reaper</label>
+		<race>Reaper</race>
+		<combatPower>80</combatPower>
+		<defaultFactionType>EnemyUnknownTerrorForce</defaultFactionType>
+		<aiAvoidCover>true</aiAvoidCover>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Alien/Reaper</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	<PawnKindDef><!--Sectopod-->
+		<defName>Sectopod</defName>
+		<label>Sectopod</label>
+		<race>Sectopod</race>
+		<combatPower>120</combatPower>
+		<defaultFactionType>EnemyUnknownTerrorForce</defaultFactionType>
+		<aiAvoidCover>true</aiAvoidCover>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Alien/Sectopod</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<weaponMoney>
+			<min>1000</min>
+			<max>1000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>SectopodPlasma</li>
+			<li>SectopodLauncher</li>
+		</weaponTags>
+	</PawnKindDef>
+
+
+</PawnKindDefs>
