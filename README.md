@@ -13,5 +13,5 @@ Even binoic and surgery system
 
 If you want to help me, just send me your proposals and maybe something I take and implement into mod.
 
-File Recourses:
+File Resourses:
 This file is for dev things only you can find there todo list, or my app for easyer generat fo research.xml, feel free to pull your opinion and proposals.
