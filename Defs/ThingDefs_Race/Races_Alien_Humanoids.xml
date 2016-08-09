@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+
+  <!-- ============================ Sectoid ========================== -->
+  <ThingDef ParentName="BasePawn">
+    <defName>Sectoid</defName>
+    <label>Sectoid</label>
+    <description>Alien humanoid realy close to human, but you can notice some diferences, like big head with wide eyes.</description>
+    <uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
+    <statBases>
+      <MarketValue>1750</MarketValue>
+      <MoveSpeed>6.00</MoveSpeed>
+      <Flammability>0.6</Flammability>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <LeatherAmount>15</LeatherAmount>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>80</defaultCooldownTicks>
+        <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>80</defaultCooldownTicks>
+        <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>200</lifeExpectancy>
+      <leatherColor>(155,155,155)</leatherColor>
+      <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
+      <leatherInsulation>1.0</leatherInsulation>
+      <leatherMarketValue>30</leatherMarketValue>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Sectoid</body>
+      <baseBodySize>0.8</baseBodySize>
+      <baseHealthScale>0.8</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialshadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialshadowData>
+    </race>
+    <recipes>
+      <li>Euthanize</li>
+    </recipes>
+  </ThingDef>
+
+  <!-- ============================ Floater ========================== -->	
+  <ThingDef ParentName="BasePawn">
+    <defName>Floater</defName>
+    <label>Floater</label>
+    <description>Alien cyborg being which have most of organs removed and replaced with biomechanical implantats, they are moving thanks to anti-gravity generator build in her bodies, which slowly kill them.</description>
+    <uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <MoveSpeed>5.00</MoveSpeed>
+      <Flammability>0.8</Flammability>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <LeatherAmount>20</LeatherAmount>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+	  <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>30</defaultCooldownTicks>
+        <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>FloaterLTusk</linkedBodyPartsGroup>
+      </li>
+	  <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>30</defaultCooldownTicks>
+        <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>FloaterRTusk</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>200</lifeExpectancy>
+      <leatherColor>(80,0,80)</leatherColor>
+      <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
+      <leatherInsulation>1.0</leatherInsulation>
+      <leatherMarketValue>50</leatherMarketValue>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Floater</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialshadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialshadowData>
+    </race>
+    <recipes>
+      <li>Euthanize</li>
+    </recipes>
+  </ThingDef>
+
+  <!-- ============================ Snakeman ========================== -->	
+  <ThingDef ParentName="BasePawn">
+    <defName>Snakeman</defName>
+    <label>Snakeman</label>
+    <description>Reptilian species looks like snake, but with humanoid body shape, they are very agile and dangerous on close combat so far as shooting match.</description>
+    <uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <MoveSpeed>6.50</MoveSpeed>
+      <Flammability>0.6</Flammability>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <LeatherAmount>40</LeatherAmount>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+	  <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>80</defaultCooldownTicks>
+        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Jaws</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>false</makesFootprints>
+      <lifeExpectancy>200</lifeExpectancy>
+      <leatherColor>(232,212,33)</leatherColor>
+      <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
+      <leatherInsulation>1.2</leatherInsulation>
+      <leatherMarketValue>75</leatherMarketValue>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Snakeman</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialshadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialshadowData>
+    </race>
+    <recipes>
+      <li>Euthanize</li>
+    </recipes>
+  </ThingDef>
+
+  <!-- ============================ Crysalid ========================== -->	
+  <ThingDef ParentName="BasePawn">
+    <defName>Crysalid</defName>
+    <label>Crysalid</label>
+    <description>No one know if these are genetic abomination or xeno-biological weapon, but in close range is realy dangerous, if you dont shoot fast enought this abomination will eat ya.</description>
+    <uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
+    <statBases>
+      <MarketValue>5000</MarketValue>
+      <MoveSpeed>4.00</MoveSpeed>
+      <Flammability>0.8</Flammability>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <LeatherAmount>40</LeatherAmount>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+	  <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>60</defaultCooldownTicks>
+        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Jaws</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+	  <baseHungerRate>1.2</baseHungerRate>
+	  <fleshType>Insectoid</fleshType>
+	  <bloodDef>FilthBloodInsect</bloodDef>
+	  <meatColor>(240,230,170)</meatColor>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>200</lifeExpectancy>
+      <leatherColor>(160,160,170)</leatherColor>
+      <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
+      <leatherInsulation>0.7</leatherInsulation>
+      <leatherMarketValue>30</leatherMarketValue>
+      <body>Crysalid</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <foodType>OmnivoreAnimal, AnimalProduct</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialshadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialshadowData>
+    </race>
+    <recipes>
+      <li>Euthanize</li>
+    </recipes>
+  </ThingDef>
+
+  <!-- ============================ Muton ========================== -->	
+  <ThingDef ParentName="BasePawn">
+    <defName>Muton</defName>
+    <label>Muton</label>
+    <description>Frontline of aliens army, stong, resilent and brainless soliders following every command they get.</description>
+    <uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <MoveSpeed>4.10</MoveSpeed>
+      <Flammability>0.8</Flammability>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <LeatherAmount>20</LeatherAmount>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+	  <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>120</defaultCooldownTicks>
+        <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+		<extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>10</amount>
+            </li>
+          </extraMeleeDamages>
+      </li>
+    </verbs>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>200</lifeExpectancy>
+      <leatherColor>(40,110,30)</leatherColor>
+      <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
+      <leatherInsulation>1.0</leatherInsulation>
+      <leatherMarketValue>50</leatherMarketValue>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Floater</body>
+      <baseBodySize>1.2</baseBodySize>
+      <baseHealthScale>1.2</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialshadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialshadowData>
+    </race>
+    <recipes>
+      <li>Euthanize</li>
+    </recipes>
+  </ThingDef>
+
+  <!-- ============================ Ethereal ========================== -->	
+  <ThingDef ParentName="BasePawn">
+    <defName>Ethereal</defName>
+    <label>Ethereal</label>
+    <description>Its not their body which give them strengh, but psionic power from their minds.</description>
+    <uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
+    <statBases>
+      <MarketValue>8000</MarketValue>
+      <MoveSpeed>4.10</MoveSpeed>
+      <Flammability>0.8</Flammability>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <ComfyTemperatureMax>40</ComfyTemperatureMax>
+      <LeatherAmount>15</LeatherAmount>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+	  <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTicks>120</defaultCooldownTicks>
+        <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+		<extraMeleeDamages>
+            <li>
+              <def>Bersekr</def>
+              <amount>10</amount>
+            </li>
+          </extraMeleeDamages>
+      </li>
+    </verbs>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>200</lifeExpectancy>
+      <leatherColor>(220,120,180)</leatherColor>
+      <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
+      <leatherInsulation>1.0</leatherInsulation>
+      <leatherMarketValue>50</leatherMarketValue>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Floater</body>
+      <baseBodySize>1.2</baseBodySize>
+      <baseHealthScale>0.6</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialshadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialshadowData>
+    </race>
+    <recipes>
+      <li>Euthanize</li>
+    </recipes>
+  </ThingDef>
+ 
+</ThingDefs>
