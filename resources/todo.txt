@@ -61,16 +61,16 @@ Electronium
 Dural
 
 Races:
-Sectoid - Body Done
-Floater - Body Done
-Snakeman - Body Done
-Muton - Body Done
-Ethereal - Body Done
+Sectoid - Body,Pawn Done
+Floater - Body,Pawn Done
+Snakeman - Body,Pawn Done
+Muton - Body,Pawn Done
+Ethereal - Body,Pawn Done
 
 Battle machines/entities:
-Cyberdisk
-Reaper
-Crysalid
-Blob
-Flying Blob
-Sectopod
+Cyberdisk - Pawn Done
+Reaper - Pawn Done
+Crysalid - Pawn Done
+Blob -
+Flying Blob - 
+Sectopod - Pawn Done
